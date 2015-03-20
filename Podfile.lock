@@ -1,0 +1,26 @@
+PODS:
+  - IFTimeoutBlock (1.0.0)
+  - librtmp-iOS (1.1.0)
+  - rtmp-wrapper (1.0.8):
+    - IFTimeoutBlock (~> 1.0.0)
+    - librtmp-iOS (~> 1.1.0)
+
+DEPENDENCIES:
+  - rtmp-wrapper (from `https://github.com/b00giZm/rtmp-wrapper.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  rtmp-wrapper:
+    :branch: master
+    :git: https://github.com/b00giZm/rtmp-wrapper.git
+
+CHECKOUT OPTIONS:
+  rtmp-wrapper:
+    :commit: 039cc408b12917d7af916407a36505aa80b92cf8
+    :git: https://github.com/b00giZm/rtmp-wrapper.git
+
+SPEC CHECKSUMS:
+  IFTimeoutBlock: 6e027036abb579cbbfa97c7ca573cbd6a5c1ea9e
+  librtmp-iOS: f545bce8ef028d0e1a21f816d7c78e3e64e3e6e7
+  rtmp-wrapper: ddaceda1b2d54b4fdd71e3952f3cb628345c8921
+
+COCOAPODS: 0.36.0
